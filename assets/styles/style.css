@@ -71,6 +71,10 @@ body {
   padding: 8px 0;
 }
 
+.footer a {
+  color: #fff;
+}
+
 .bar a:hover {
   background: #757575;
 }
@@ -114,6 +118,7 @@ body {
   color: #000 !important;
   line-height: 2 !important;
   padding: 25px 0;
+  font-style: italic;
 }
 
 .btn {
@@ -130,7 +135,7 @@ body {
 
 .btn:hover {
   color: #000;
-  background: #cccccc;
+  background: #ccc;
   cursor: pointer;
 }
 
@@ -159,7 +164,6 @@ body {
 }
 
 .overlay-text h2 {
-  font-size: 30px;
   font-weight: 400;
   margin: 10px 0;
   font-size: 64px !important;
@@ -183,21 +187,18 @@ body {
 }
 
 .pink {
-  background: #ffdddd;
-  
+  background: #fdd;
 }
 
 .hope {
   text-align: center;
   line-height: 2.5 !important;
   padding: 50px 0;
-  
 }
 
 .hope h1 {
   letter-spacing: 5px;
   font-weight: 400;
-  
 }
 
 .hope h3 {
@@ -217,7 +218,7 @@ body {
 
 .pink-button:hover {
   color: #000;
-  background: #cccccc;
+  background: #ccc;
   cursor: pointer;
 }
 
@@ -231,8 +232,4 @@ body {
 
 .footer p {
   padding-top: 20px;
-}
-
-.footer a {
-  color: #fff;
 }
