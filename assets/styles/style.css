@@ -5,7 +5,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 body {
@@ -61,7 +61,7 @@ body {
   text-align: center;
   padding: 8px 16px !important;
   overflow: hidden;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .bar a {
@@ -72,7 +72,7 @@ body {
 }
 
 .bar a:hover {
-  background: #f1f1f1;
+  background: #757575;
 }
 
 .rsvp:hover {
@@ -84,6 +84,7 @@ body {
 .the-wedding {
   background: #f2e1e1;
   height: auto;
+  padding: 64px 0 !important;
 }
 
 .couple1,
@@ -97,7 +98,7 @@ body {
 .the-wedding h1 {
   text-align: center;
   padding: 60px 0;
-  /* color: #757575; */
+  color: #757575;
   vertical-align: middle;
   font-weight: 400;
 }
@@ -107,24 +108,30 @@ body {
   width: 100%;
   filter: grayscale(50%);
   border-radius: 4px;
-  /* margin: 32px 0; */
 }
 
-.couple1 i {
+.couple1 p {
   color: #000 !important;
   line-height: 2 !important;
+  padding: 25px 0;
 }
 
 .btn {
   align-items: center;
   font-size: 18px !important;
-  padding: 12px 24px;
+  padding: 18px 24px;
   color: #fff;
   background: #000;
   border-radius: 4px;
   border: none;
   display: block;
   margin: 0 auto;
+}
+
+.btn:hover {
+  color: #000;
+  background: #cccccc;
+  cursor: pointer;
 }
 
 .flower-pic {
@@ -210,7 +217,7 @@ body {
 
 .pink-button:hover {
   color: #000;
-  background: #CCCCCC;
+  background: #cccccc;
   cursor: pointer;
 }
 
@@ -224,4 +231,8 @@ body {
 
 .footer p {
   padding-top: 20px;
+}
+
+.footer a {
+  color: #fff;
 }
