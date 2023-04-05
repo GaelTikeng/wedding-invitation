@@ -177,6 +177,12 @@ body {
 
 .when h2 {
   text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.when p {
+  text-align: center;
 }
 
 .pink {
