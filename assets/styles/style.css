@@ -175,15 +175,6 @@ body {
   line-height: 3 !important;
 }
 
-@media screen and (max-width: 768px) {
-  .btn-bar {
-    display: none;
-  }
-  .time-place {
-    display: block;
-  }
-}
-
 .when h2 {
   text-align: center;
 }
@@ -234,4 +225,14 @@ body {
 
 .footer p {
   padding-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-bar {
+    display: none;
+  }
+  
+  .time-place {
+    display: block;
+  }
 }
